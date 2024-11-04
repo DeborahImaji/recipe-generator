@@ -10,29 +10,34 @@
 
 <body>
 
-    <header>
-        <h1>AI Recipe Generator</h1>
-    </header>
+    <div class="container">
+        <header>
+            <h1>AI Recipe Generator 🥙</h1>
+        </header>
 
-    <main>
+        <main>
 
-        <form>
-            <input type="text" placeholder="What kind of recipe do you want?" autofocus required autocomplete="off" />
-            <input type="submit" />
-        </form>
+            <form>
+                <input type="text" placeholder="What kind of recipe do you want?" autofocus required autocomplete="off"
+                    class="instructions" />
+                <input type="submit" class="submit-button" />
+            </form>
 
-        <div>
-            Recipe line 1
-            <br />
-            Recipe line 2
-        </div>
+            <div class="recipe">
+                Recipe line 1
+                <br />
+                Recipe line 2
+            </div>
 
-    </main>
+        </main>
 
-    <footer>This AI project was coded by <a href="https://github.com/DeborahImaji" target="_blank">Deborah Imaji</a> and
-        is <a href="https://github.com/DeborahImaji/recipe-generator.git" target="_blank">open-sourced on GitHub</a>
-        and is <a href="https://myrecipegenerator.netlify.app/" target="_blank">hosted on Netlify</a>.
-    </footer>
+        <footer>This AI project was coded by <a href="https://github.com/DeborahImaji" target="_blank">Deborah Imaji</a>
+            and
+            is <a href="https://github.com/DeborahImaji/recipe-generator.git" target="_blank">open-sourced on GitHub</a>
+            and is <a href="https://myrecipegenerator.netlify.app/" target="_blank">hosted on Netlify</a>.
+        </footer>
+    </div>
+
 
     <script src="src/index.js"></script>
 
