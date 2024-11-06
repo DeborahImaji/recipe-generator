@@ -29,10 +29,6 @@ function generateRecipe(event) {
     recipeElement.classList.remove("hidden");
     recipeElement.innerHTML = `<div class="generating">⏳ Generating a recipe for ${instructionsInput.value} for you. Please wait...</div>`;
 
-    console.log("Generating recipe...");
-    console.log(`Prompt: ${prompt}`);
-    console.log(`Context: ${context}`);
-
     axios.get(apiUrl).then(displayRecipe);
 
 }
