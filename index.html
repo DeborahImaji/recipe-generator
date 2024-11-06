@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css">
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <title>🍔 AI Recipe Generator</title>
 </head>
 
@@ -19,8 +20,8 @@
         <main>
 
             <form id="recipe-generator-form">
-                <input type="text" placeholder="What kind of recipe do you want?" autofocus required autocomplete="off"
-                    class="instructions" />
+                <input type="text" placeholder="What would you like to cook?" autofocus required autocomplete="off"
+                    class="instructions" id="user-instructions" />
                 <input type="submit" class="submit-button" />
             </form>
 
